@@ -1,0 +1,120 @@
+header {
+    text-align: center;
+}
+
+header input {
+    border: 1px solid black;
+    width: 80%;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+.contacts ul {
+    margin: 0;
+    padding: 0;
+}
+
+.contacts ul li {
+    list-style: none;
+    height: 40px;
+    border: 1px solid green;
+}
+
+.contacts {
+    width: 100%;
+    margin-right: 10px;
+    float: left;
+}
+
+.contact {
+    float: left;
+    width: 70%;
+    margin-right: 5px;
+}
+
+.contact a {
+    width: 100%;
+    display: block;
+}
+
+.actions {
+    float: right;
+}
+
+.actions a {
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+
+.button {
+    border: 1px solid gray;
+    min-width: 10px;
+    margin: 0px;
+    padding: 10px;
+}
+
+@media (min-width:320px) {
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+    .actions {
+        display: none;
+    }
+    header input {
+        width: 100%;
+        font-size: 30px;
+    }
+}
+
+@media (min-width:480px) {
+    /* smartphones, Android phones, landscape iPhone */
+    .actions {
+        display: none;
+    }
+    header input {
+        width: 100%;
+        font-size: 30px;
+    }
+}
+
+@media (min-width:600px) {
+    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+    .actions {
+        display: none;
+    }
+    header input {
+        width: 100%;
+        font-size: 30px;
+    }
+}
+
+@media (min-width:801px) {
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+    .actions {
+        display: none;
+    }
+    header input {
+        width: 100%;
+        font-size: 30px;
+    }
+}
+
+@media (min-width:1025px) {
+    /* big landscape tablets, laptops, and desktops */
+    header input {
+        width: 100%;
+        font-size: 30px;
+    }
+}
+
+@media (min-width:1281px) {
+    /* hi-res laptops and desktops */
+    .actions {
+        display: block;
+    }
+    header input {
+        border: 1px solid black;
+        width: 80%;
+        border-radius: 5px;
+        font-size: 30px;
+    }
+}
